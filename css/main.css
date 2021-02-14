@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@0&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+
+body {
+  background-color: white;
+  font-family: "Merriweather", Helvetica, sans-serif;
+  font-size: medium;
+  background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.7),
+      rgb(255, 255, 255)
+    ),
+    /* url("../img/camo-bg.jpg"); */
+      url("https://wallpaperaccess.com/full/391977.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header,
+main {
+  margin: 24px auto;
+  min-width: 325px;
+  max-width: 900px;
+}
+
+.header-bio {
+  color: rgb(128, 92, 3);
+  text-align: center;
+}
+
+.my_name {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 3rem;
+}
+
+.main-bio {
+  text-align: justify;
+}
+
+.bio-profile-img {
+  margin-right: 16px;
+  margin-bottom: 16px;
+  float: left;
+  border-radius: 5%;
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  object-fit: cover;
+  object-position: center top;
+}
